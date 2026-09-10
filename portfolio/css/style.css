@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #172033;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+header {
+    background-color: #101828;
+    color: #ffffff;
+    padding: 75px 30px;
+}
+
+.header-tartalom {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kis-szoveg {
+    color: #60a5fa;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.motto {
+    font-size: 25px;
+    color: #d1d5db;
+    margin-bottom: 20px;
+}
+
+.idezet {
+    color: #93c5fd;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+nav {
+    border-bottom: 1px solid #dbe2ea;
+    top: 0;
+}
+
+.nav-tartalom {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    padding: 22px 35px;
+    color: #172033;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #eff6ff;
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+}
+
+
+
+
+
+
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 30px;
+}
+
+.szekcio-fejlec {
+    margin-bottom: 45px;
+}
+
+.szekcio-szam {
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 42px;
+    color: #101828;
+    line-height: 1.2;
+}
+
+h3 {
+    color: #101828;
+}
+
+.bemutatkozas-tartalom {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.profil-kep img {
+    height: 440px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(16, 24, 40, 0.12);
+}
+
+.bemutatkozo-szoveg p {
+    margin-bottom: 20px;
+    color: #475467;
+}
+
+.kiemelt-szoveg {
+    color: #101828 ;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
