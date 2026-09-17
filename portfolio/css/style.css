@@ -15,13 +15,6 @@ img {
     width: 100%;
 }
 
-
-
-
-
-
-
-
 header {
     background-color: #101828;
     color: #ffffff;
@@ -57,11 +50,7 @@ header h1 {
     font-size: 15px;
 }
 
-
-
-
-
-
+/*---------------------------------*/
 
 nav {
     border-bottom: 1px solid #dbe2ea;
@@ -88,12 +77,6 @@ nav a:hover {
     color: #2563eb;
     border-bottom-color: #2563eb;
 }
-
-
-
-
-
-
 
 section {
     max-width: 1200px;
@@ -127,7 +110,6 @@ h3 {
     gap: 70px;
 }
 
-
 .profil-kep img {
     height: 440px;
     border-radius: 20px;
@@ -140,51 +122,13 @@ h3 {
 }
 
 .kiemelt-szoveg {
-    color: #101828 ;
+    color: #101828;
     font-size: 25px;
     font-weight: bold;
     line-height: 1.5;
 }
 
-
-
-
-
-.keszsegek {
-    background-color: #eaf2ff;
-}
-
-.keszsegek .szekcio-fejlec,
-.keszseg-grid {
-    max-width: 1200px;
-    margin: auto;
-}
-
-.keszseg-kartya {
-    min-height: 190px;
-    padding: 30px;
-    background-color: #ffffff;
-    border: 1px solid #dbe2ea;
-    border-radius: 15px;
-}
-
-.kartya-szam {
-    color: #2563eb;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 18px;
-}
-
-.keszseg-kartya h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.keszseg-kartya p {
-    color: #667085;
-}
-
-
+/*---------------------------------*/
 
 .keszsegek {
     background-color: #eaf2ff;
@@ -194,6 +138,8 @@ h3 {
 .keszsegek .szekcio-fejlec,
 .keszseg-grid {
     max-width: 1200px;
+    justify-content: center;
+    margin: auto;
 }
 
 .keszseg-grid {
@@ -226,10 +172,7 @@ h3 {
     color: #667085;
 }
 
-
-
-
-
+/*---------------------------------*/
 
 .projekt-grid {
     display: grid;
@@ -244,7 +187,6 @@ h3 {
     border: 1px solid #dbe2ea;
     border-radius: 16px;
 }
-
 
 .projekt-tartalom {
     padding: 30px;
@@ -267,9 +209,7 @@ h3 {
     color: #667085;
 }
 
-
-
-
+/*---------------------------------*/
 
 .kapcsolat {
     max-width: none;
@@ -310,6 +250,7 @@ h3 {
 }
 
 
+
 .kapcsolat-sor p,
 .kapcsolat-sor a {
     color: #ffffff;
@@ -317,9 +258,7 @@ h3 {
     font-weight: bold;
 }
 
-
-
-
+/*---------------------------------*/
 
 footer {
     background-color: #0b1220;
@@ -338,11 +277,6 @@ footer {
     color: #ffffff;
 }
 
-
-
-
-
-
 @media (max-width: 800px) {
     .keszseg-grid {
         grid-template-columns: 1fr;
@@ -351,9 +285,9 @@ footer {
     .projekt-grid {
         grid-template-columns: 1fr;
     }
+
     .nav-tartalom {
         flex-direction: column;
         text-align: center;
     }
-
 }
