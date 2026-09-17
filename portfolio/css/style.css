@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
     color: #172033;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 img {
@@ -35,9 +35,9 @@ header {
 
 .kis-szoveg {
     color: #60a5fa;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     margin-bottom: 15px;
 }
 
@@ -54,7 +54,7 @@ header h1 {
 
 .idezet {
     color: #93c5fd;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 
@@ -69,14 +69,13 @@ nav {
 
 .nav-tartalom {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
 }
 
 nav a {
-    display: block;
-    padding: 22px 35px;
+    padding: 25px 35px;
     color: #172033;
     text-decoration: none;
     font-weight: bold;
@@ -98,7 +97,7 @@ nav a:hover {
 
 section {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 90px 30px;
 }
 
@@ -110,11 +109,11 @@ section {
     color: #2563eb;
     font-size: 15px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 40px;
     color: #101828;
     line-height: 1.2;
 }
@@ -125,15 +124,13 @@ h3 {
 
 .bemutatkozas-tartalom {
     display: flex;
-    align-items: center;
     gap: 70px;
 }
 
 
 .profil-kep img {
     height: 440px;
-    object-fit: cover;
-    border-radius: 18px;
+    border-radius: 20px;
     box-shadow: 0 15px 40px rgba(16, 24, 40, 0.12);
 }
 
@@ -144,9 +141,9 @@ h3 {
 
 .kiemelt-szoveg {
     color: #101828 ;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 
@@ -154,15 +151,49 @@ h3 {
 
 
 .keszsegek {
-    max-width: none;
     background-color: #eaf2ff;
 }
 
 .keszsegek .szekcio-fejlec,
 .keszseg-grid {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+}
+
+.keszseg-kartya {
+    min-height: 190px;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #dbe2ea;
+    border-radius: 15px;
+}
+
+.kartya-szam {
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.keszseg-kartya h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.keszseg-kartya p {
+    color: #667085;
+}
+
+
+
+.keszsegek {
+    background-color: #eaf2ff;
+    max-width: none;
+}
+
+.keszsegek .szekcio-fejlec,
+.keszseg-grid {
+    max-width: 1200px;
 }
 
 .keszseg-grid {
@@ -176,16 +207,14 @@ h3 {
     padding: 30px;
     background-color: #ffffff;
     border: 1px solid #dbe2ea;
-    border-radius: 14px;
-    box-shadow: 0 8px 25px rgba(16, 24, 40, 0.06);
+    border-radius: 15px;
 }
 
 .kartya-szam {
-    display: block;
     color: #2563eb;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .keszseg-kartya h3 {
@@ -195,4 +224,136 @@ h3 {
 
 .keszseg-kartya p {
     color: #667085;
+}
+
+
+
+
+
+
+.projekt-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.projekt-kartya {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #dbe2ea;
+    border-radius: 16px;
+}
+
+
+.projekt-tartalom {
+    padding: 30px;
+}
+
+.projekt-szam {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.projekt-tartalom h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.projekt-tartalom p:last-child {
+    color: #667085;
+}
+
+
+
+
+
+.kapcsolat {
+    max-width: none;
+    background-color: #101828;
+    color: #ffffff;
+}
+
+.kapcsolat .szekcio-fejlec,
+.kapcsolat-tartalom {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.kapcsolat h2 {
+    color: #ffffff;
+}
+
+.kapcsolat-tartalom {
+    gap: 100px;
+    align-items: center;
+}
+
+.kapcsolat-szoveg {
+    flex: 1;
+}
+
+.kapcsolati-adatok {
+    flex: 1;
+    border: 1px solid #344054;
+    border-radius: 15px;
+}
+
+.kapcsolat-sor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    border-bottom: 1px solid #344054;
+}
+
+
+.kapcsolat-sor p,
+.kapcsolat-sor a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+footer {
+    background-color: #0b1220;
+    color: #98a2b3;
+    padding: 30px;
+}
+
+.footer-tartalom {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-tartalom p:first-child {
+    color: #ffffff;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .keszseg-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projekt-grid {
+        grid-template-columns: 1fr;
+    }
+    .nav-tartalom {
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
